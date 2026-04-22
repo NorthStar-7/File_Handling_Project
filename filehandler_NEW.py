@@ -212,13 +212,3 @@ def convert(
    generator = remove_header(give_entry_string(filename))
    get_key_names(generator, keyNames)
    convert_to_dicts(generator, seperator, keyNames, listOfDicts)
-   
-keyNames = []
-listOfDicts = []
-
-convert("Section02_List.txt", keyNames, listOfDicts)
-for i in range(5):
-   print(listOfDicts[i])
-   
-   
-   
