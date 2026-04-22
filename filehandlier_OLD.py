@@ -152,12 +152,4 @@ def save_to_dicts(keyNames, listOfElements):
       listOfDicts.append(entryDict)
          
    return listOfDicts
-
-students = save_to_list("data.txt")
-students = convert_list(students)
-keyNames = get_key_names(students)
-students = save_to_dicts(keyNames, students)
-
-for i in range(5):
-   print(students[i])
       
